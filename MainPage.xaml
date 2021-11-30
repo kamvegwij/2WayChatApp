@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="_2WayChatApp.MainPage">
+
+    <StackLayout Orientation="Vertical">
+        <Label Text="2WayChat" FontSize="25"/>
+        <Entry Placeholder ="PhoneNumber" x:Name="PhoneNumber"/>
+        <Entry Placeholder="User" x:Name="Username"/>
+        <Entry Placeholder="Message" x:Name="Message"/>
+        <Button Text="Send Message" FontSize="20" Clicked="OnMessageBtnClick"/>
+        <Label x:Name="MessageHolder"/>
+    </StackLayout>
+
+</ContentPage>
